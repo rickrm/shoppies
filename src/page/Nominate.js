@@ -94,7 +94,7 @@ export default function Nominate({ addMovie, movies, limit }) {
     React.useEffect(() => {
 
         if(searchInput.length <= 2) {
-            request(`http://www.omdbapi.com/?t=${searchInput}&apikey=${config.key}&page=1&type=movie&r=json&y=${yearInput}`, { json: true }, (err, res, body) =>  {
+            request(`https://www.omdbapi.com/?t=${searchInput}&apikey=${config.key}&page=1&type=movie&r=json&y=${yearInput}`, { json: true }, (err, res, body) =>  {
                 if (body.Response === "False") {
                     setOuput([]);
                     if (searchInput.length !== 0) {
@@ -108,7 +108,7 @@ export default function Nominate({ addMovie, movies, limit }) {
             });
 
         } else {
-            request(`http://www.omdbapi.com/?s=${searchInput}&apikey=${config.key}&page=${currPage}&type=movie&r=json&y=${yearInput}`, { json: true }, (err, res, body) =>  {
+            request(`https://www.omdbapi.com/?s=${searchInput}&apikey=${config.key}&page=${currPage}&y=${yearInput}&type=movie&r=json`, { json: true }, (err, res, body) =>  {
                 if (body.Response === "False") {
                     setOuput([]);
                     setPages(-1);
