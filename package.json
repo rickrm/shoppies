@@ -10,12 +10,13 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "request": "^2.88.2",
+    "serve": "^11.3.2",
     "styled-components": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "build": "serve -s build",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
   },
