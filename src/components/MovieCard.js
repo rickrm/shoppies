@@ -1,5 +1,6 @@
 import React from 'react'
 import style from 'styled-components';
+import poster from '../images/404poster.jpeg';
 
 const Row = style.div`
 
@@ -116,13 +117,13 @@ export default function MovieCard({ movie, addMovie, removeMovie, btnLabel, sele
 
     }, [selected]);
 
-    
+
 
 
     return (
             <CardWrapper>
                 <Row>
-                    <MoviePoster src={movie.Poster === "N/A" ? "/images/404poster.jpeg" : movie.Poster } alt="Movie_Poster"/>
+                    <MoviePoster src={movie.Poster === "N/A" ? poster : movie.Poster } alt="Movie_Poster"/>
                     <MovieInfo>
                         <MovieTitle>
                             {movie.Title}

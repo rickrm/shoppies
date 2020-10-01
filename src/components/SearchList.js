@@ -26,14 +26,18 @@ const PageBtnLeft = style.button`
 
     height: 30px;
     width: 30px;
+    color: white;
     background-color: transparent;
     border-color: transparent;
-    background: url(/images/leftBtn.png) no-repeat center;
     background-size: cover;
     border-radius: 16px;
+    font-size: 18px;
+    font-weight: 500;
+
 
     &:active {
-        background: url(/images/leftBtnFilled.png) no-repeat center;
+
+        color: grey;
         background-size: cover;
     }
 
@@ -43,14 +47,16 @@ const PageBtnRight = style.button`
 
     height: 30px;
     width: 30px;
+    color: white;
     background-color: transparent;
     border-color: transparent;
-    background: url(/images/rightBtn.png) no-repeat center;
     background-size: cover;
     border-radius: 16px;
+    font-size: 18px;
+    font-weight: 500;
 
     &:active {
-        background: url(/images/rightBtnFilled.png) no-repeat center;
+        color: grey;
         background-size: cover;
     }
 
@@ -122,12 +128,16 @@ export default function SearchList(
                     <BtnWrapper>
                         {
                             currPage === 1 ? null :
-                            <PageBtnLeft onClick={onClickLeft}/>
+                            <PageBtnLeft onClick={onClickLeft}>
+                                {"<"}
+                            </PageBtnLeft>
                         }
                         { pages === -1 || input.length === 0 ? null : <PageNum>{currPage}</PageNum> }
                         {
                             currPage === pages || currPage === 100 || pages === -1 || input.length === 0 ? null:
-                            <PageBtnRight onClick={onClickRight}/>
+                            <PageBtnRight onClick={onClickRight}>
+                                {">"}
+                            </PageBtnRight>
                         }
                     </BtnWrapper>
         }
@@ -158,12 +168,14 @@ export default function SearchList(
                     <BtnWrapper>
                         {
                             currPage === 1 ? null :
-                            <PageBtnLeft onClick={onClickLeft}/>
+                            <PageBtnLeft onClick={onClickLeft}> {"<"} </PageBtnLeft>
                         }
                         { pages === -1 || input.length === 0 ? null : <PageNum>{currPage}</PageNum> }
                         {
                             currPage === pages || currPage === 100 || pages === -1 || input.length === 0 ? null:
-                            <PageBtnRight onClick={onClickRight}/>
+                            <PageBtnRight onClick={onClickRight}>
+                                {">"}
+                            </PageBtnRight>
                         }
                     </BtnWrapper>
         }

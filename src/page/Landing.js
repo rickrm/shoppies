@@ -1,5 +1,6 @@
 import React from 'react'
 import style from 'styled-components';
+import showcase from '../images/new_oscar.png';
 
 const LandingTitle = style.h1`
 
@@ -117,7 +118,7 @@ export default function Landing() {
                 A Critic
             </LandingSub>
         </TitleWrapper>
-        <ShowcaseImage src="/images/new_oscar.png"/>
+        <ShowcaseImage src={showcase}/>
     </Wrapper>
     )
 }
