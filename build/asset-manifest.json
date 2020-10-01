@@ -5,19 +5,19 @@
     "main.js.map": "/shoppies/static/js/main.c23eabc5.chunk.js.map",
     "runtime-main.js": "/shoppies/static/js/runtime-main.da667ea0.js",
     "runtime-main.js.map": "/shoppies/static/js/runtime-main.da667ea0.js.map",
-    "static/js/2.867f48e2.chunk.js": "/shoppies/static/js/2.867f48e2.chunk.js",
-    "static/js/2.867f48e2.chunk.js.map": "/shoppies/static/js/2.867f48e2.chunk.js.map",
+    "static/js/2.15d097d2.chunk.js": "/shoppies/static/js/2.15d097d2.chunk.js",
+    "static/js/2.15d097d2.chunk.js.map": "/shoppies/static/js/2.15d097d2.chunk.js.map",
     "index.html": "/shoppies/index.html",
-    "precache-manifest.019117727b017688ccf14417755a8735.js": "/shoppies/precache-manifest.019117727b017688ccf14417755a8735.js",
+    "precache-manifest.535701b76302fec5e3494c5adccedec8.js": "/shoppies/precache-manifest.535701b76302fec5e3494c5adccedec8.js",
     "service-worker.js": "/shoppies/service-worker.js",
     "static/css/main.57df7bb3.chunk.css.map": "/shoppies/static/css/main.57df7bb3.chunk.css.map",
-    "static/js/2.867f48e2.chunk.js.LICENSE.txt": "/shoppies/static/js/2.867f48e2.chunk.js.LICENSE.txt",
+    "static/js/2.15d097d2.chunk.js.LICENSE.txt": "/shoppies/static/js/2.15d097d2.chunk.js.LICENSE.txt",
     "static/media/404poster.jpeg": "/shoppies/static/media/404poster.70e0e28d.jpeg",
     "static/media/new_oscar.png": "/shoppies/static/media/new_oscar.3c960330.png"
   },
   "entrypoints": [
     "static/js/runtime-main.da667ea0.js",
-    "static/js/2.867f48e2.chunk.js",
+    "static/js/2.15d097d2.chunk.js",
     "static/css/main.57df7bb3.chunk.css",
     "static/js/main.c23eabc5.chunk.js"
   ]
