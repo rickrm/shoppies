@@ -1,7 +1,6 @@
 ## The Shoppies
 
-![Screen Shot 2021-05-09 at 8 53 10 PM](https://user-images.githubusercontent.com/59406513/117603691-93a74600-b108-11eb-907d-873b74f8e932.png)
-
+![Screen Shot 2021-05-09 at 8 53 39 PM](https://user-images.githubusercontent.com/59406513/117603722-a6ba1600-b108-11eb-99bb-61c66cfa7b7a.png)
 
 Link to web app: https://rickymao.me/shoppies/
 
