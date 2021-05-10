@@ -7,7 +7,7 @@ Link to web app: https://rickymao.me/shoppies/
 
 ## Features
 
-Built using OMDB API, easily become a critic and nominate up to 5 movies for this years Shoppies! You can query any movie and add and remove at your hearts desire.
+Built using OMDB API, easily become a critic and nominate up to 5 movies (a banner will pop up when you nominate 5 movies) tell you when you have nominated 5 for this years Shoppies! You can query any movie and add and remove at your hearts desire.
 
 Added:
 - Query refined for year and title
